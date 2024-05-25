@@ -4,7 +4,7 @@ import os
 from tqdm import tqdm
 from read_pdf import extract_details
 
-key = 'AIzaSyBHNR4SwVOsQzHOsVEzFq3dI8o_CZubZtA'
+key = 'Your secret-key'
 genai.configure(api_key=key)
 
 def generate_response_gemini_text(prompt):
